@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update sys_domain="global" table="sys_filter">
     <sys_filter action="INSERT_OR_UPDATE">
-        <filter table="sys_user">nameSTARTSWITH^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value=""/>
+        <filter table="sys_user">nameSTARTSWITHs^nameISNOTEMPTY^EQ<item endquery="false" field="name" goto="false" newquery="false" operator="STARTSWITH" or="false" value="s"/>
             <item endquery="false" field="name" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </filter>
@@ -11,11 +11,11 @@
         <roles/>
         <sys_class_name>sys_filter</sys_class_name>
         <sys_created_by>fred.luddy</sys_created_by>
-        <sys_created_on>2017-07-03 06:04:38</sys_created_on>
+        <sys_created_on>2017-07-05 09:54:21</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a15b80240f333200e51ec3ace1050e56</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_id>ca1317050f333200e51ec3ace1050ef0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
